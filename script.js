@@ -1,6 +1,6 @@
 async function getWeather() {
     const city = document.getElementById("cityInput").value;
-    const apiKey = "8b9a8aebe3ef9d7fd164cf9ae1738693";
+    const apiKey = "YOUR_API_KEY";
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
